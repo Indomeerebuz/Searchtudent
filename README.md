@@ -1,4 +1,4 @@
-# Projek Edan - Sistem Data Siswa
+# Searchtudent - Sistem Data Siswa
 
 Aplikasi berbasis **PHP Native OOP** untuk pengelolaan data siswa dengan sistem **multi-user (Admin & Siswa)**. Aplikasi ini menyediakan fitur autentikasi, pengelolaan data siswa, serta pencetakan laporan.
 
@@ -8,7 +8,7 @@ Aplikasi berbasis **PHP Native OOP** untuk pengelolaan data siswa dengan sistem 
 
 ### 1. Ekstrak Project
 
-Ekstrak folder **projek_edan** ke:
+Ekstrak folder **Searchtudent** ke:
 
 * `htdocs/` untuk XAMPP
 * `www/` untuk Laragon
@@ -19,7 +19,7 @@ Ekstrak folder **projek_edan** ke:
 2. Buat database dengan nama:
 
 ```sql
-sistem_data_siswa
+sistem data siswa
 ```
 
 3. Import file:
@@ -48,7 +48,7 @@ Sesuaikan konfigurasi berikut jika diperlukan:
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "sistem_data_siswa";
+$database = "sistem data siswa";
 ```
 
 ### 4. Jalankan Aplikasi
@@ -56,7 +56,7 @@ $database = "sistem_data_siswa";
 Buka browser dan akses:
 
 ```text
-http://localhost/projek_edan/
+http://localhost/Searchtudent/
 ```
 
 ---
@@ -80,7 +80,7 @@ Silakan melakukan registrasi melalui halaman **Register**.
 # Struktur Folder
 
 ```text
-projek_edan/
+Searchtudent/
 │
 ├── class/
 │   ├── class_auth.php
@@ -173,7 +173,7 @@ Admin mencetak seluruh data siswa dalam bentuk laporan.
 * Pastikan nama database adalah:
 
 ```text
-sistem_data_siswa
+sistem data siswa
 ```
 
 * Periksa konfigurasi pada file `koneksi.php`.
@@ -183,19 +183,19 @@ sistem_data_siswa
 * Pastikan folder project bernama:
 
 ```text
-projek_edan
+Searchtudent
 ```
 
 * Pastikan aplikasi diakses melalui:
 
 ```text
-http://localhost/projek_edan/
+http://localhost/Searchtudent/
 ```
 
 ---
 
 ## Author
 
-**Projek Edan - Sistem Data Siswa**
+**Searchtudent - Sistem Data Siswa**
 Aplikasi pengelolaan data siswa berbasis PHP OOP dengan sistem multi-user.
 
